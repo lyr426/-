@@ -1,0 +1,10 @@
+
+body {
+    background-image:url("./assets/img/배경.jpg") ;
+    background-repeat: repeat;
+    height: 100vh;
+} 
+
+#headerPage{
+    text-align-last: center;
+}
