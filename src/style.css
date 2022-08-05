@@ -44,8 +44,10 @@ a{
     margin: 20px;
     font-size: 20px;
     font-family: 'Jua', sans-serif;
+    display : flex;
+    justify-content: center;
+    align-items : center;
     text-align: center;
-    padding-top: 5%;
 }
 
 .memoList{

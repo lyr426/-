@@ -2,7 +2,7 @@ function Main(){
 
     return (
         <div>
-            <h1> 버튼을 클릭 해주세요 !  </h1>
+        {/*<img src= {require("../assets/img/main_bg.webp")}/>*/}
         </div>
     )
 }

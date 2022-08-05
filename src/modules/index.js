@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux'; 
-import villagerReducer from './AnimalcrossingModule';
+import animalReducer from './AnimalcrossingModule';
 
 const rootReducer = combineReducers({
-    villagerReducer
+    animalReducer
 });
 
 export default rootReducer;

@@ -1,34 +1,34 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { callGetAnimalcrossingAPI } from "../../apis/AnimalcrossingAPICalls"; 
-import VillagerMemo from "../items/VillagerMemo";
+import FishMemo from "../items/FishMemo";
 import "../../style.css";
 
-function VillagerList(){
+function FishList(){
 
     const result = useSelector(state => state.animalReducer);
     console.log("Rducer Result : ", result);
     
-    const villagers = result;
+    const fishs = result;
     
-    console.log("villagers:" , villagers); 
+    console.log("fishs:" , fishs); 
 
     const dispatch = useDispatch();
 
     useEffect(
         () => {
-            dispatch(callGetAnimalcrossingAPI("http://acnhapi.com/v1/villagers", "GET_VILLAGERS"))
+            dispatch(callGetAnimalcrossingAPI("http://acnhapi.com/v1/fish", "GET_FISHS"))
         },
         []
     ); 
  // 액션 => 리듀서 => 포켓몬 => 리절트 
     return(
-        villagers && (
+        fishs && (
             <div className="memoList">
-                { villagers.map(villager => <VillagerMemo key= {villager.id} villager = { villager }/> )}
+                { fishs.map(fish => <FishMemo key= { fish.id } fish = { fish }/> )}
             </div>
         )
     );
 }
 
-export default VillagerList;
+export default FishList;

@@ -11,13 +11,19 @@ function Navbar(){
                 </NavLink>
             </div>
             <div className="navContent">
+                <NavLink to="/fossils">
                     화석 종류 조회하기
+                </NavLink>
             </div>
             <div className="navContent">
+                <NavLink to="/bugs">
                     곤충 종류 조회하기
+                </NavLink>
             </div>
             <div className="navContent">
+                <NavLink to="/fishs">
                     물고기 종류 조회하기
+                </NavLink>
             </div>
              
 
