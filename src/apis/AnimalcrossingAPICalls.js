@@ -39,6 +39,7 @@ export function callGetAnimalcrossingAPI(url, type){
     
                 dispatch({ type: GET_FISHS, payload: result});
             }
+        
         default :
             return ; 
     }

@@ -25,8 +25,6 @@ function Navbar(){
                     물고기 종류 조회하기
                 </NavLink>
             </div>
-             
-
 
         </div>
     )

@@ -59,3 +59,23 @@ a{
     flex-flow: wrap;
 
 }
+
+
+.villagerDetails{
+    background-image:url("./assets/img/spec_box_bg_pc.png") ;
+    background-repeat: no-repeat;
+    height: 328px;
+    background-position: center;
+    margin-top: 164px;
+    font-family: 'Jua', sans-serif;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    text-align: center;
+    font-size: 35px;
+}
+
+.villagerDetailText{
+    text-align: -webkit-left;
+    margin-left: 50px;
+}
